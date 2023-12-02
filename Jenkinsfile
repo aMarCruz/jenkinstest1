@@ -1,4 +1,4 @@
-* Requires the Docker Pipeline plugin */
+/* Requires the Docker Pipeline plugin */
 pipeline {
     agent { docker { image 'node:20.10.0-alpine3.18' } }
     stages {
